@@ -1,45 +1,55 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-  }
-  
-  header {
-    background-color: #ffa07a; /* Light salmon */
-    padding: 20px;
-    text-align: center;
-    color: white;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    margin-bottom: 30px;
-  }
-  
-  h1, h2 {
-    color: #4b0082; /* Indigo */
-  }
-  
-  p {
-    color: #333;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
 
-  footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-  }
-  
-  footer a {
-    color: blue !important; /* Change the color to blue and use !important to ensure it overrides other styles */
-    text-decoration: none;
-  }
-  
+header {
+  background-color: #ffa07a; /* Light salmon */
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  color: #4b0082; /* Indigo */
+}
+
+p {
+  color: #333;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.footer-info {
+  float: left;
+}
+
+.website-link {
+  margin-top: 10px;
+}
+
+footer a {
+  color: blue !important; /* Change the color to blue and use !important to ensure it overrides other styles */
+  text-decoration: none;
+}
+
   
