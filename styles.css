@@ -40,10 +40,11 @@ footer {
 }
 
 .footer-info {
-  float: left;
+  display: inline-block;
 }
 
 .website-link {
+  display: inline-block;
   margin-top: 10px;
 }
 
@@ -52,4 +53,3 @@ footer a {
   text-decoration: none;
 }
 
-  
